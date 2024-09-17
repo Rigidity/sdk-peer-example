@@ -15,7 +15,7 @@ async fn main() -> anyhow::Result<()> {
     let (peer, mut receiver) = connect_peer(
         NetworkId::Mainnet,
         tls,
-        SocketAddr::from_str("31.192.64.239:8444")?,
+        SocketAddr::from_str("127.0.0.1:8444")?,
     )
     .await?;
 
