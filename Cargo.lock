@@ -1287,6 +1287,7 @@ dependencies = [
  "anyhow",
  "chia",
  "chia-wallet-sdk",
+ "native-tls",
  "tokio",
 ]
 
